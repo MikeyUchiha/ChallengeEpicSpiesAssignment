@@ -11,7 +11,12 @@ namespace ChallengeEpicSpiesAssignment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(!Page.IsPostBack)
+            {
+                endPreviousCalendar.SelectedDate = DateTime.Now.Date;
+                startNewCalendar.SelectedDate = DateTime.Now.Date.AddDays(14);
+                endNewCalendar.SelectedDate = DateTime.Now.Date.AddDays(21);
+            }
         }
 
         protected void assignSpyButton_Click(object sender, EventArgs e)
