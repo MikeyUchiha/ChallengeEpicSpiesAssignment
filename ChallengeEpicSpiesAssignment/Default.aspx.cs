@@ -13,5 +13,10 @@ namespace ChallengeEpicSpiesAssignment
         {
 
         }
+
+        protected void assignSpyButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

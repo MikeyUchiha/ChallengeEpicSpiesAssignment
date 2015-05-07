@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="epic-spies-logo.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
