@@ -21,7 +21,7 @@ namespace ChallengeEpicSpiesAssignment
 
         protected void assignSpyButton_Click(object sender, EventArgs e)
         {
-
+            resultLabel.Text = DateTime.Now.ToString();
         }
     }
 }
