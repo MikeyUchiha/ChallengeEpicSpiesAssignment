@@ -26,6 +26,9 @@
             <asp:TextBox ID="assignmentNameTextBox" runat="server"></asp:TextBox>
         </p>
         <p>
+            <asp:Label ID="currentDateTimeLabel" runat="server"></asp:Label>
+        </p>
+        <p>
             End Date of Previous Assignment:<asp:Calendar ID="endPreviousCalendar" runat="server"></asp:Calendar>
         </p>
         <p>
